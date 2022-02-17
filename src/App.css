@@ -2,6 +2,11 @@ img{
     opacity: 1.0;
 }
 
+form input {
+    width: 100%;
+    margin-top: 5px;
+}
+
 .logo{
     width: 200px;
     height: 50px;
@@ -13,8 +18,8 @@ p{
     text-align: justify;
 }
 
-button{
-    margin-left: 10px;
+div button{
+    margin-left: 5px;
 }
 
 .text-container {

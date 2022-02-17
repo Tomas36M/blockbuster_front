@@ -28,8 +28,7 @@ const Card = ({
                         <button type="button" className="btn btn-primary" onClick={() => {
                             const body = {likes: likes + 1}
                             updateMovie(id, body)
-                        }}>Like</button>
-                        <button type="button" className="btn btn-primary">{likes}</button>
+                        }}>Like {likes}</button>
                     </div>
                 </div>
             </div>
